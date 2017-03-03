@@ -1,0 +1,172 @@
+/*_recuadro negro________________________________*/
+.container
+{
+  width:   700px;
+  margin:  50px auto;
+  padding: 0px 20px 20px 20px;
+
+  background-color:    black;
+  background-image:    url("http://i.imgur.com/fWFMRbd.gif");
+  background-size:     cover;
+  background-position: center;
+  border-radius:       20px 0px 20px 0px;
+
+  background-blend-mode: luminosity;
+}
+
+#logo
+{
+  display: block;
+  margin:  0px auto;
+  width:   100px;
+}
+
+#title
+{
+  text-align:  center;
+  color:       orange;
+  font-family: 'Press Start 2P', cursive;
+}
+/*_end__________________________________________*/
+
+
+/*_tabla de información_________________________*/
+#count, #score, #strt
+{
+  color:       #5FD100;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.info
+{
+  width: 100%;
+}
+/*_end__________________________________________*/
+
+
+/*_tablero______________________________________*/
+.game_id td
+{
+  background-color: none;
+  height:           15px;
+  width:            10px;
+}
+
+.active
+{
+  background-color: orange;
+  box-shadow:       0px 0px 3px .5px orange;
+}
+
+.goal
+{
+  background-color: #262626;
+  box-shadow:       0px 0px 3px 1px ##262626,
+}
+
+#p1_61, #p2_61
+{
+  background-color: #262626;
+  box-shadow:       0px 0px 3px 1px #262626;
+}
+
+#score_count
+{
+  color:       orange;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.winner
+{
+  background-color: red;
+  box-shadow:       0px 0px 3px 1px red,
+}
+
+td
+{
+  border: 1px dotted #3C3C3C;
+}
+/*_end__________________________________________*/
+
+
+/*_botón start__________________________________*/
+#content
+{
+  width:      100px;
+  margin:     30px auto;
+  text-align: center;
+  padding:    5px auto;
+}
+
+#content > div
+{
+  text-align: right;
+}
+
+.glowbutton
+{
+  display:         inline-block;
+  min-width:       2%;
+  text-align:      center;
+  text-decoration: none;
+  padding:         5px 10px;
+  border-size:     3px;
+  border-style:    solid;
+  border-radius:   10px;
+  transition:      all .1s linear;
+  margin:          5px 20px;
+  background: none;
+}
+#strt
+{  
+  font-family:  'Press Start 2P', cursive;
+  border-color: #5FD100;
+  color:        #5FD100;
+  box-shadow:   0px 0px 3px 1px #5FD100,
+  inset         0px 0px 3px #5FD100;
+  text-shadow:  0px 0px 3px #5FD100;
+}
+#strt:hover
+{
+  font-family: 'Press Start 2P', cursive;
+  box-shadow:   0px 0px 5px 5px #5FD100,
+  inset         0px 0px 5px #5FD100;
+  text-shadow:  0px 0px 5px #5FD100;
+}
+/*_end__________________________________________*/
+
+label
+{
+  font-family: 'Press Start 2P', cursive;
+  font-size:   12px;
+  color:       #5FD100;
+  text-shadow: 0px 0px 3px #5FD100;
+}
+
+::-webkit-input-placeholder {
+   color:         grey;
+   opacity:       .4;
+   font-size:     10px;
+   text-align:    center;
+   font-family:   'Press Start 2P', cursive;
+   border-radius: 50px;
+}
+
+#enter
+{
+  font-family: 'Press Start 2P', cursive;
+  text-shadow: 0px 0px 7px #5FD100;
+  position:    relative;
+  left:        19%;
+  top:         500%;
+  color:       #5FD100;
+
+  background: none;
+  border: none;
+}
+
+#galaga_ship
+{
+  display: block;
+  margin:  0px auto;
+}

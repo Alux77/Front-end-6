@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<header>
+
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+
+  <img src="img/codea-logo.png" id="logo">
+
+</header>
+
+<body>
+
+<h4 id="title">&#60; ALUX´S ARCADE RAYUELA &#62;</h4>
+
+<br>
+
+<table class='info'>
+  <tr>
+
+    <div id='content'>
+    <button id='strt' class='glowbutton'>PLAY &#x025B6</button> 
+    </div>
+
+  </tr>
+</table>
+
+    <h5 id="count"></h5>
+    <h5 id="score"></h5>
+
+    <div class="game_id"></div>
+
+    <table class="game_id">
+      <tr id="P1">
+        <td id="p1"><img src="http://icons.veryicon.com/ico/System/Arcade%20Daze/Pac%20Man.ico" style="width:32px; height:32px;"></td>
+        <td id='p1_1' class="active"></td>
+
+        <%i = 2%>
+        <%60.times do%>
+          <%if i == 50 %>
+            <td id="p1_<%=i%>" class="goal"></td>
+          <%else%>
+            <td id="p1_<%=i%>"></td>
+          <%end%>
+            <%i += 1%>
+        <%end%>
+
+      </tr>
+
+      <tr id="P2">
+        <td id="p2"><img src="http://www.iconeasy.com/icon/ico/System/Arcade%20Daze/Blinky.ico" style="width:30px; height:30px;"></td>
+        <td id='p2_1' class="active"></td>
+
+        <%i = 2%>
+        <%60.times do%>
+          <%if i == 50 %>
+            <td id="p2_<%=i%>" class="goal"></td>
+          <%else%>
+            <td id="p2_<%=i%>"></td>
+          <%end%>
+          <%i += 1%>
+        <%end%>
+
+      </tr>
+    </table>
+
+<div id='status'></div>
+
+</body>
+</html>
